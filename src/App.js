@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Header from "./components/Header";
+import Information from "./components/Information";
+import Footer from "./components/Footer";
+import back from "../src/images/puzzlebackground.jpeg";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div
+      className="App"
+      style={{ backgroundImage: `url(${back})`, backgroundRepeat: "no-repeat" , backgroundPosition: "center", backgroundSize: "cover"}}
+    >
+      <Header />
+      <Information />
+      <Footer />
     </div>
   );
 }
