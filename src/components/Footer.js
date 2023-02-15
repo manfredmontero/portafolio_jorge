@@ -9,9 +9,9 @@ function Footer() {
         <div className="footer-small-container">
           © 2023 Copyright: Jorge Montero
           <hr />
-          <a href="https:www.linkedin.com/in/jorge--montero" target="_blank">
+          <a href="https://www.linkedin.com/in/jorge--montero" target="_blank">
             <img
-              src="https://spng.pngfind.com/pngs/s/57-572039_12-linkedin-icon-flat-images-round-daily-dot.png"
+              src="https://cdn.imgbin.com/6/5/1/imgbin-computer-icons-social-media-linkedin-logo-blog-social-media-9ak6g4amV4zqgsddrur7XQjZ3.jpg"
               className="logo-footer"
             />
           </a>
